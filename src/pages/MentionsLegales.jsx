@@ -1,6 +1,18 @@
+import { useEffect } from "react";
 import "../styles/MentionsLegales.css";
 
 function MentionsLegales() {
+  useEffect(() => {
+    const meta = document.createElement("meta");
+    meta.name = "robots";
+    meta.content = "noindex";
+    document.head.appendChild(meta);
+
+    return () => {
+      document.head.removeChild(meta);
+    };
+  }, []);
+
   return (
     <section className="container my-5">
       <div className="text-center mb-5">
@@ -28,10 +40,10 @@ function MentionsLegales() {
           >
             <div className="accordion-body">
               <h4>John Doe</h4>
-              <p>🏢 40 rue Laure Diebold</p>
-              <p>📍 69009 Lyon, France</p>
-              <p>📱 10 20 30 40 50</p>
-              <p>✉️ john.doe@gmail.com</p>
+              <p>40 rue Laure Diebold</p>
+              <p>69009 Lyon, France</p>
+              <p>10 20 30 40 50</p>
+              <p>john.doe@gmail.com</p>
             </div>
           </div>
         </div>
@@ -57,7 +69,6 @@ function MentionsLegales() {
               <h4>alwaysdata</h4>
               <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
               <p>
-                🌐{" "}
                 <a
                   href="https://www.alwaysdata.com"
                   target="_blank"
