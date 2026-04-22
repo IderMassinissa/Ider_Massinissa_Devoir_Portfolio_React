@@ -1,0 +1,19 @@
+.portfolio-card {
+  border: 1px solid #dee2e6;
+  transition:
+    box-shadow 0.3s,
+    background-color 0.3s;
+}
+
+.portfolio-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-btn {
+  transition: filter 0.3s;
+}
+
+.portfolio-btn:hover {
+  filter: brightness(1.2);
+}
