@@ -1,16 +1,59 @@
-# React + Vite
+# Portfolio John Doe - React.JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site portfolio d'un développeur web full stack, réalisé dans le cadre d'un devoir appliqué au Centre Européen de Formation.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Ce site présente le profil, les services, les réalisations et les coordonnées de John Doe, développeur web full stack. Il est développé avec React.JS et Bootstrap.
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home** : Présentation, compétences et modale GitHub
+- **Services** : Offres de services (UX Design, Développement web, Référencement)
+- **Portfolio** : Réalisations (6 projets)
+- **Contact** : Formulaire de contact et coordonnées
+- **Mentions légales** : Éditeur, hébergeur et crédits
 
-## Expanding the ESLint configuration
+## Prérequis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/) (version 18 ou supérieure)
+- [npm](https://www.npmjs.com/) (version 9 ou supérieure)
+
+## Technologies utilisées
+
+- [React.JS](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [React Router](https://reactrouter.com/)
+
+## Installation
+
+1. Cloner le repository :
+
+```bash
+git clone https://github.com/IderMassinissa/Ider_Massinissa_Devoir_Portfolio_React.git
+```
+
+2. Se placer dans le dossier du projet :
+
+```bash
+cd Ider_Massinissa_Devoir_Portfolio_React
+```
+
+3. Installer les dépendances :
+
+```bash
+npm install
+```
+
+## Lancement
+
+```bash
+npm run dev
+```
+
+Le site sera accessible sur `http://localhost:5173`
+
+## Auteur
+
+Ider Massinissa - [GitHub](https://github.com/IderMassinissa)
