@@ -1,0 +1,23 @@
+footer {
+  font-size: 0.9rem;
+}
+
+.footer-icon {
+  color: #aaa;
+  transition: color 0.3s;
+}
+
+.footer-icon:hover {
+  color: #fff;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  transition: font-weight 0.2s;
+}
+
+.footer-links a:hover {
+  font-weight: bold;
+  color: #aaa;
+}
